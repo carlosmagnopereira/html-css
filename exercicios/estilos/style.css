@@ -1,0 +1,79 @@
+@charset "UTf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(75, 75, 75, 0.5);
+    font: 0.8em Arial, Verdana, Helvetica, sans-serif;
+}
+
+main {
+    max-width: 800px;
+    min-width: 270px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.856);
+    padding: 30px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.329);
+}
+
+h1 {
+    color: #0073b4;
+    font-size: 2.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: #00a8f5;
+    padding: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.274);
+}
+
+ul {
+    list-style: inside;
+    text-indent: 40px;
+    line-height: 1.5em;
+    padding: 10px;
+}
+
+aside {
+    display: block;
+    background-color: rgb(0, 168, 245);
+    color: white;
+    font-weight: bold;
+    border-radius:  10px 20px 20px 10px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.329);
+    text-align: justify;
+    margin: 15px;
+    padding: 20px;
+}
+
+aside  img {
+    display: block;
+    float: left;
+    margin-top: -7px;
+    margin-right: 10px;
+    padding-top: 5px;   
+    width: 50px;   
+}
+
+aside  a {
+        color: #050a5aea;
+}
+
+aside a:hover {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #00a8f5;
+}
